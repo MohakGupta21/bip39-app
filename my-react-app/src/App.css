@@ -1,0 +1,185 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    background-color: black;
+    font-family: "Lato", sans-serif;
+    color:#fff;
+    width:100%;
+}
+
+.import{
+    position: absolute;
+    width: 9rem;
+    height: 2.3rem;
+    top: 20%;
+    right:1rem;
+    gap: 0px;
+    background-color: #191E26;
+    border: 0.5px solid #242830;
+    border-radius: 5px;
+    font-size: 9px;
+    color:#BEB4A8;
+    text-transform: uppercase;
+}
+
+.aside{
+    position: absolute;
+    width: 30%;
+    max-width: 199px;
+    height: 90%;
+    top: 10%;
+    left: 2rem;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color: #191E26;
+}
+
+.list{
+    list-style-type: none;
+    margin-top: 2rem;
+    padding:0;
+}
+.list .list-item{
+    width:100%;
+    height:3rem;
+    padding-top:1rem;
+    padding-left:20px;
+    color:#fff;
+    font-size: 12px;
+}
+.list .highlighted{
+    border-left:3px solid #E2C19D;
+    color: #E2C19D;
+}
+.bottom-button{
+    position:absolute;
+    bottom:0;
+    background: #4B3C2B;
+    height:3rem;
+    width:100%;
+    font-size: 14px;
+    color:#fff;
+    border:none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.main-box{
+    position: absolute;
+    width: 55%;
+    max-width: 701px;
+    height: 40%;
+    top: 25%;
+    left: min(50%,307px);
+    gap: 0px;
+    opacity: 0px;
+
+}
+.item{
+    background: #161C23;
+    padding:1rem 1.3rem;
+}
+.abt-coin{
+    font-size: 12px;
+    color: #ADABAA;
+    margin-left: 1rem;
+}
+
+#head{
+    width: 100%;
+    color: #474848;
+    font-size: 12px;
+    background-color: black;
+    display: flex;
+}
+#head th{
+    flex:1;
+    margin-left: 20px;
+}
+
+
+.custom-table {
+    width: 100%; /* Sets the table width */
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  
+  .custom-table tr {
+    display: flex; /* Makes the row elements flexible to distribute column width equally */
+    margin-top: 1rem; /* Separates rows */
+    background-color: #161C23;
+
+  }
+  
+  .custom-table td {
+    flex: 1; 
+    padding: 1rem;
+    color: #ADABAA;
+    text-align: left;
+/* Optional: text color for better readability */
+  }
+
+.theading{
+    position: absolute;
+    top: 20%;
+    left: min(55%,309px);
+    gap: 0px;
+    opacity: 0px;    
+    font-size: 20px;
+    color: #C78D4E;
+
+}
+.time{
+    color: #ADABAA;
+    font-size: 10px;
+}
+.date{
+    color:#ADABAA;
+    font-size: 12px;
+}
+
+.popup{
+    background-color: #171C23;
+    position:absolute;
+}
+.pos{
+    position: absolute;
+    top:0;
+    right:0;
+    transform: translate(-10px,10px);
+}
+.input{
+    background: #171C23;
+    border: 1px solid #C5C5C545;
+    border-radius: 3px;
+    color: #A6A2A2;
+    width:100%;
+}
+.label{
+    color: #A6A2A2;
+    size:12px;
+}
+.colored{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    background: #DB953C;
+    color:#fff;
+    /* margin:auto; */
+}
+.colored:hover{
+    background-color: #C78D4E;
+}
+.wallet-form{
+    padding:0 3rem;
+    width: 100%;
+    height: 250px;
+    top: 299px;
+    left: 341px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin-bottom:2rem;
+}

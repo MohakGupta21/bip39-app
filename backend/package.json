@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bip32": "^2.0.6",
+    "bip39": "^3.1.0",
+    "bip44": "^0.0.1",
+    "bitcoinjs-lib": "^7.0.0-rc.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7",
+    "tiny-secp256k1": "^2.2.3"
+  }
+}
