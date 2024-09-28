@@ -1,0 +1,1 @@
+This is a full stack bitcoin testnet wallet application. the objective of this application is to get testnet wallets through mnemonic words and list down transactions of these wallets. It is coded in React.js and Node.js.
